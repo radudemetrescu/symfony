@@ -1,0 +1,13 @@
+newsletter:
+  date: '2015-01-01'
+  from: 'test@dev-course.com'
+  webmaster: &id1
+      'webmaster@dev-course.com'
+  subject: 'Newsletter'
+  content: >
+      Hello,
+
+      This is a newsletter
+  email_list:
+      - *id1
+      - radu.demetrescu@emag.ro
